@@ -1,6 +1,6 @@
 package application;
 
-import models.Users;
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,7 +23,7 @@ public class UserHelper extends HelperBase {
         type(By.xpath("//input[@placeholder='Password']"), password);
     }
 
-    public void fillLoginForm(Users user) {
+    public void fillLoginForm(User user) {
 
         type(By.xpath("//input[@placeholder='Email']"), user.getEmail());
         type(By.xpath("//input[@placeholder='Password']"), user.getPassword());
@@ -36,12 +36,17 @@ public class UserHelper extends HelperBase {
     public void submitLogin() {
         click(By.xpath("//button[.=' Login']"));
     }
+    public void clickLoginButton(){
+        click(By.xpath("//button[.=' Login']"));
+    }
 
     public boolean isLogined() {
         return (wd.findElements(By.xpath("//a[.='LOGIN']"))).size() > 0;
     }
 
     public void logout() {
+    //    new WebDriverWait(wd, 15)
+    //            .until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//button[text()='Sign out']"))));
         click(By.xpath("//button[.='Sign Out']"));
     }
 
@@ -54,7 +59,8 @@ public class UserHelper extends HelperBase {
         wd.switchTo().alert().accept();
     }
 
-    public boolean isLogged() {
-        return wd.findElements(By.xpath("//button[text()='Sign out']")).size() > 0;
+    public boolean isNoLogged() {
+
+        return wd.findElements(By.xpath("//a[.='LOGIN']")).size() > 0;
     }
 }

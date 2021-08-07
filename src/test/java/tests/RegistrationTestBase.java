@@ -1,11 +1,10 @@
 package tests;
 
-import models.Users;
+import models.User;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import tests.BaseTest;
 
-public class RegistrationTest extends BaseTest {
+public class RegistrationTestBase extends TestBase {
 
     @BeforeMethod
     public void preCondition() {
@@ -19,12 +18,13 @@ public class RegistrationTest extends BaseTest {
         app.userHelper().openLoginForm();
         app.userHelper().fillLoginForm("kselon+35@gmail.com", "Qwerty$4");
         app.userHelper().submitReg();
+
         app.userHelper().logout();
 
     }
     @Test
     public void registrationPositiveDto(){
-        Users user = new Users().withEmail("Kselon+36@gmail.com").withPassword("Qwerty$4");
+        User user = new User().withEmail("Kselon+36@gmail.com").withPassword("Qwerty$4");
         app.userHelper().openLoginForm();
         app.userHelper().fillLoginForm(user);
         app.userHelper().submitRegistration();

@@ -10,9 +10,9 @@
 
     <test name="Reg">
         <classes>
-            <class name="tests.SmokeTest"/>
-            <class name="tests.QuickTest"/>
-            <class name="tests.LoginTest">
+            <class name="tests.SmokeTestBase"/>
+            <class name="tests.QuickTestBase"/>
+            <class name="tests.LoginTestBase">
 
             </class>
         </classes>

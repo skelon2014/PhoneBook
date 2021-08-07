@@ -5,7 +5,7 @@
     <test name="SReg">
         <classes>
 
-            <class name="tests.QuickTest"/>
+            <class name="tests.QuickTestBase"/>
         </classes>
     </test>
 </suite>
