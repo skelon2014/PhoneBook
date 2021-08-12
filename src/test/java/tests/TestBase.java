@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 public class TestBase {
     protected static ApplicationManager app =
@@ -18,8 +19,10 @@ public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeMethod
-    public void startLogger(Method m){
+    public void startLogger(Method m, Object[] p){
+        logger.info("==================================");
         logger.info("Start on method - " + m.getName());
+        logger.info("Start test with Data - " + Arrays.asList(p));
     }
     @AfterMethod
     public void endOfLogger(Method m){

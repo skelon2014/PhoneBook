@@ -107,6 +107,7 @@ public class LoginTestBase extends TestBase {
     //=================================================with data csv
     @Test(dataProvider = "dataFileCSV",dataProviderClass = MyDataProvider.class)
     public void loginTestDP_CSV(User user) {
+        app.userHelper().pause(1000);
         app.userHelper().openLoginForm();
         app.userHelper().fillLoginForm(user);
         app.userHelper().clickLoginButton();

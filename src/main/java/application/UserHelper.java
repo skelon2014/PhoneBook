@@ -12,8 +12,12 @@ public class UserHelper extends HelperBase {
     }
 
     public void openLoginForm() {
-
-        click(By.xpath("//a[.='LOGIN']"));
+        if(isNoLogged()) {
+            click(By.xpath("//a[.='LOGIN']"));
+        }else{
+            click(By.xpath("//button[.='Sign Out']"));
+            click(By.xpath("//a[.='LOGIN']"));
+        }
     }
 
     public void fillLoginForm(String email, String password) {
@@ -62,5 +66,12 @@ public class UserHelper extends HelperBase {
     public boolean isNoLogged() {
 
         return wd.findElements(By.xpath("//a[.='LOGIN']")).size() > 0;
+    }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        clickLoginButton();
+        pause(1000);
     }
 }

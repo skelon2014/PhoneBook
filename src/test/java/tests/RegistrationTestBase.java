@@ -16,7 +16,7 @@ public class RegistrationTestBase extends TestBase {
     @Test
     public void registrationPositive() {
         app.userHelper().openLoginForm();
-        app.userHelper().fillLoginForm("kselon+35@gmail.com", "Qwerty$4");
+        app.userHelper().fillLoginForm("kselon+005@gmail.com", "Qwerty$4");
         app.userHelper().submitReg();
 
         app.userHelper().logout();
@@ -24,7 +24,7 @@ public class RegistrationTestBase extends TestBase {
     }
     @Test
     public void registrationPositiveDto(){
-        User user = new User().withEmail("Kselon+36@gmail.com").withPassword("Qwerty$4");
+        User user = new User().withEmail("Kselon+006@gmail.com").withPassword("Qwerty$4");
         app.userHelper().openLoginForm();
         app.userHelper().fillLoginForm(user);
         app.userHelper().submitRegistration();
