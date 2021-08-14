@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.AddContactTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-08-12T10:01:36" hostname="DESKTOP-V8HD5F2" time="78.954">
+  <properties/>
+  <testcase name="addContactTestBase" classname="tests.AddContactTest" time="1.596"/>
+  <testcase name="addContactTestBase" classname="tests.AddContactTest" time="1.529"/>
+  <testcase name="addContactTestBase" classname="tests.AddContactTest" time="1.511"/>
+  <testcase name="addContactTestCSV[0](Contact(name=Masha, lastName=Qwerty, email=kselon01@bk.ru, phone=1234511678, address=Haifa, description=friend))" classname="tests.AddContactTest" time="2.386"/>
+  <testcase name="addContactTestCSV[1](Contact(name=Sasha, lastName=Asdfgh, email=kselon02@bk.ru, phone=9874115632, address=Haifa, description=friend))" classname="tests.AddContactTest" time="2.065"/>
+  <testcase name="addContactTestCSV[2](Contact(name=Mosha, lastName=wrnaertn, email=kselon03@bk.ru, phone=1411567412, address=Haifa, description=friend))" classname="tests.AddContactTest" time="2.177"/>
+  <testcase name="addContactTestCSV[3](Contact(name=Gosha, lastName=gndgn, email=kselon04@bk.ru, phone=3245631125, address=Haifa, description=friend))" classname="tests.AddContactTest" time="2.893"/>
+  <testcase name="addContactTestCSV[4](Contact(name=Resae, lastName=aetnxf , email=kselon05@bk.ru, phone=1211452145, address=Haifa, description=friend))" classname="tests.AddContactTest" time="3.447"/>
+  <testcase name="addContactTestCSV[5](Contact(name=Trew, lastName=aweegear, email=kselon61@bk.ru, phone=9811569856, address=Haifa, description=friend))" classname="tests.AddContactTest" time="2.581"/>
+  <testcase name="addContactTestCSV[6](Contact(name=John, lastName=zdgWEg, email=kselon07@bk.ru, phone=6587114521, address=Haifa, description=friend))" classname="tests.AddContactTest" time="3.657"/>
+  <testcase name="addContactTestCSV[7](Contact(name=Jane, lastName=ezrneren, email=kselon08@bk.ru, phone=1211589654, address=Haifa, description=friend))" classname="tests.AddContactTest" time="4.281"/>
+  <testcase name="addContactTestCSV[8](Contact(name=Mila, lastName=rehaeerh, email=kselon91@bk.ru, phone=1241156987, address=Haifa, description=friend))" classname="tests.AddContactTest" time="3.389"/>
+  <testcase name="addContactTestDataProvider[0](Masha, Qwerty, 1234512678, kselon01@bk.ru, Haifa, friend)" classname="tests.AddContactTest" time="1.925"/>
+  <testcase name="addContactTestDataProvider[1](Sasha, Asdfgh, 9872115632, kselon02@bk.ru, Haifa, friend)" classname="tests.AddContactTest" time="1.42"/>
+  <testcase name="addContactTestDataProvider[2](Mosha, wrnaertn, 1211567412, kselon03@bk.ru, Haifa, friend)" classname="tests.AddContactTest" time="1.256"/>
+  <system-out><![CDATA[13:01:34 INFO  tests.TestBase - ==================================
+13:01:34 INFO  tests.TestBase - Start on method - addContactTestBase
+13:01:34 INFO  tests.TestBase - Start test with Data - []
+13:01:34 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:01:34 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:01:34 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:01:34 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:01:34 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:01:34 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:01:34 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+13:01:34 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+13:01:35 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+13:01:35 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+13:01:35 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+13:01:35 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+13:01:36 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:01:36 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:01:36 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:01:36 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:01:36 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:01:36 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:01:36 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:01:37 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:01:37 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:01:37 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:01:37 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:01:37 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:01:37 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:01:37 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:01:37 INFO  tests.TestBase - End off method - addContactTestBase
+13:01:37 INFO  tests.TestBase - ==================================
+13:01:37 INFO  tests.TestBase - Start on method - addContactTestBase
+13:01:37 INFO  tests.TestBase - Start test with Data - []
+13:01:37 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:01:41 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:01:41 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:01:41 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:01:41 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:01:41 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:01:41 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:01:41 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:01:41 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:01:41 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:01:41 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:01:41 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:01:42 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:01:42 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:01:42 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:01:42 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:01:42 INFO  tests.TestBase - End off method - addContactTestBase
+13:01:42 INFO  tests.TestBase - ==================================
+13:01:42 INFO  tests.TestBase - Start on method - addContactTestBase
+13:01:42 INFO  tests.TestBase - Start test with Data - []
+13:01:42 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:01:45 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:01:45 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:01:45 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:01:45 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:01:45 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:01:45 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:01:45 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:01:46 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:01:46 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:01:46 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:01:46 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:01:46 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:01:46 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:01:46 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:01:46 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:01:47 INFO  tests.TestBase - End off method - addContactTestBase
+13:01:47 INFO  tests.TestBase - ==================================
+13:01:47 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:01:47 INFO  tests.TestBase - Start test with Data - [Contact(name=Masha, lastName=Qwerty, email=kselon01@bk.ru, phone=1234511678, address=Haifa, description=friend)]
+13:01:47 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:01:50 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:01:50 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:01:50 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:01:50 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:01:50 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:01:51 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:01:51 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:01:51 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:01:51 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:01:51 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:01:51 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:01:51 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:01:51 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:01:51 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:01:51 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:01:52 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:01:52 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============1234511678===============
+13:01:52 INFO  tests.TestBase - End off method - addContactTestCSV
+13:01:52 INFO  tests.TestBase - ==================================
+13:01:52 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:01:52 INFO  tests.TestBase - Start test with Data - [Contact(name=Sasha, lastName=Asdfgh, email=kselon02@bk.ru, phone=9874115632, address=Haifa, description=friend)]
+13:01:52 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:01:55 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:01:55 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:01:55 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:01:55 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:01:55 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:01:56 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:01:56 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:01:56 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:01:56 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:01:56 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:01:56 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:01:56 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:01:56 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:01:56 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:01:57 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:01:57 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:01:57 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============9874115632===============
+13:01:57 INFO  tests.TestBase - End off method - addContactTestCSV
+13:01:57 INFO  tests.TestBase - ==================================
+13:01:57 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:01:57 INFO  tests.TestBase - Start test with Data - [Contact(name=Mosha, lastName=wrnaertn, email=kselon03@bk.ru, phone=1411567412, address=Haifa, description=friend)]
+13:01:57 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:00 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:00 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:00 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:00 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:00 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:01 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:01 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:01 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:01 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:01 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:01 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:01 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:01 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:02 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:02 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:02 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:02:02 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============1411567412===============
+13:02:02 INFO  tests.TestBase - End off method - addContactTestCSV
+13:02:02 INFO  tests.TestBase - ==================================
+13:02:02 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:02:02 INFO  tests.TestBase - Start test with Data - [Contact(name=Gosha, lastName=gndgn, email=kselon04@bk.ru, phone=3245631125, address=Haifa, description=friend)]
+13:02:02 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:05 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:05 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:06 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:06 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:06 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:06 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:06 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:06 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:06 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:07 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:07 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:07 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:07 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:08 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:08 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:08 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:02:08 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============3245631125===============
+13:02:08 INFO  tests.TestBase - End off method - addContactTestCSV
+13:02:08 INFO  tests.TestBase - ==================================
+13:02:08 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:02:08 INFO  tests.TestBase - Start test with Data - [Contact(name=Resae, lastName=aetnxf , email=kselon05@bk.ru, phone=1211452145, address=Haifa, description=friend)]
+13:02:08 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:11 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:11 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:11 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:12 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:12 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:12 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:12 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:12 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:13 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:13 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:13 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:13 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:13 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:14 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:14 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:14 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:02:14 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============1211452145===============
+13:02:15 INFO  tests.TestBase - End off method - addContactTestCSV
+13:02:15 INFO  tests.TestBase - ==================================
+13:02:15 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:02:15 INFO  tests.TestBase - Start test with Data - [Contact(name=Trew, lastName=aweegear, email=kselon61@bk.ru, phone=9811569856, address=Haifa, description=friend)]
+13:02:15 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:18 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:18 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:18 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:18 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:18 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:18 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:18 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:19 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:19 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:19 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:19 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:19 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:19 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:19 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:20 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:20 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:02:20 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============9811569856===============
+13:02:21 INFO  tests.TestBase - End off method - addContactTestCSV
+13:02:21 INFO  tests.TestBase - ==================================
+13:02:21 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:02:21 INFO  tests.TestBase - Start test with Data - [Contact(name=John, lastName=zdgWEg, email=kselon07@bk.ru, phone=6587114521, address=Haifa, description=friend)]
+13:02:21 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:24 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:24 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:24 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:24 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:24 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:24 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:24 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:25 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:25 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:25 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:25 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:26 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:26 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:26 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:26 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:26 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:02:27 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============6587114521===============
+13:02:27 INFO  tests.TestBase - End off method - addContactTestCSV
+13:02:27 INFO  tests.TestBase - ==================================
+13:02:27 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:02:27 INFO  tests.TestBase - Start test with Data - [Contact(name=Jane, lastName=ezrneren, email=kselon08@bk.ru, phone=1211589654, address=Haifa, description=friend)]
+13:02:27 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:30 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:30 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:30 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:31 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:31 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:31 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:31 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:32 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:32 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:33 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:33 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:33 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:34 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:34 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:34 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:34 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:02:34 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============1211589654===============
+13:02:35 INFO  tests.TestBase - End off method - addContactTestCSV
+13:02:35 INFO  tests.TestBase - ==================================
+13:02:35 INFO  tests.TestBase - Start on method - addContactTestCSV
+13:02:35 INFO  tests.TestBase - Start test with Data - [Contact(name=Mila, lastName=rehaeerh, email=kselon91@bk.ru, phone=1241156987, address=Haifa, description=friend)]
+13:02:35 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:38 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:38 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:38 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:38 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:38 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:38 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:38 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:39 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:39 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:39 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:39 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:39 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:39 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:40 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:40 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:40 INFO  application.MyListener - Start find element by --> By.xpath: //h3
+13:02:41 INFO  application.MyListener - The element --> By.xpath: //h3 was found
+============1241156987===============
+13:02:41 INFO  tests.TestBase - End off method - addContactTestCSV
+13:02:41 INFO  tests.TestBase - ==================================
+13:02:41 INFO  tests.TestBase - Start on method - addContactTestDataProvider
+13:02:41 INFO  tests.TestBase - Start test with Data - [Masha, Qwerty, 1234512678, kselon01@bk.ru, Haifa, friend]
+13:02:41 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:44 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:44 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:44 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:44 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:44 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:45 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:45 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:45 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:45 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:45 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:45 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:45 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:46 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:46 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:46 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:46 INFO  tests.TestBase - End off method - addContactTestDataProvider
+13:02:46 INFO  tests.TestBase - ==================================
+13:02:46 INFO  tests.TestBase - Start on method - addContactTestDataProvider
+13:02:46 INFO  tests.TestBase - Start test with Data - [Sasha, Asdfgh, 9872115632, kselon02@bk.ru, Haifa, friend]
+13:02:46 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:49 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:49 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:49 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:49 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:49 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:49 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:49 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:50 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:50 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:50 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:50 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:50 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:50 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:50 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:50 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:51 INFO  tests.TestBase - End off method - addContactTestDataProvider
+13:02:51 INFO  tests.TestBase - ==================================
+13:02:51 INFO  tests.TestBase - Start on method - addContactTestDataProvider
+13:02:51 INFO  tests.TestBase - Start test with Data - [Mosha, wrnaertn, 1211567412, kselon03@bk.ru, Haifa, friend]
+13:02:51 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+13:02:54 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+13:02:54 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+13:02:54 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+13:02:54 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Name']
+13:02:54 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Name'] was found
+13:02:54 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Last Name']
+13:02:54 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Last Name'] was found
+13:02:54 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Phone']
+13:02:54 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Phone'] was found
+13:02:54 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='email']
+13:02:54 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='email'] was found
+13:02:54 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='Address']
+13:02:55 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='Address'] was found
+13:02:55 INFO  application.MyListener - Start find element by --> By.cssSelector: input[placeholder='description']
+13:02:55 INFO  application.MyListener - The element --> By.cssSelector: input[placeholder='description'] was found
+13:02:55 INFO  tests.TestBase - End off method - addContactTestDataProvider
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
