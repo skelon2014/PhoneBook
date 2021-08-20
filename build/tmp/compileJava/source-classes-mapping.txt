@@ -1,12 +1,12 @@
-application/MyDataProvider.java
- application.MyDataProvider
+application/HelperBase.java
+ application.HelperBase
 models/Contact.java
  models.Contact
  models.Contact$ContactBuilder
 models/User.java
  models.User
-application/HelperBase.java
- application.HelperBase
+application/MyDataProvider.java
+ application.MyDataProvider
 application/MyListener.java
  application.MyListener
 application/ApplicationManager.java

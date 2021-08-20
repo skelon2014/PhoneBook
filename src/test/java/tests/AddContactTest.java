@@ -22,7 +22,7 @@ public class AddContactTest extends TestBase {
                 .name("Masha")
                 .lastName("Add")
                 .email("qwerty+" + i + "@bk.ru")
-                .phone("12345678")
+                .phone("12345678"+i)
                 .address("Telavi, Rustaveli, 5, 12")
                 .description("friend-"+i)
                 .build();
@@ -34,7 +34,7 @@ public class AddContactTest extends TestBase {
     }
 
 
-    @Test(dataProvider = "dataContactCSV",dataProviderClass = MyDataProvider.class)
+   @Test(dataProvider = "dataContactCSV",dataProviderClass = MyDataProvider.class)
     public void addContactTestCSV(Contact contact) {
         int i = (int)((System.currentTimeMillis())/1000)%360;
 
@@ -44,7 +44,7 @@ public class AddContactTest extends TestBase {
            Assert.assertTrue(app.contact().isContactAdded(contact.getPhone()));
     }
 
-    @Test(dataProvider = "DataContactDP",dataProviderClass = MyDataProvider.class)
+/*    @Test(dataProvider = "DataContactDP",dataProviderClass = MyDataProvider.class)
     public void addContactTestDataProvider(String name, String lastName, String phone, String email, String address, String description) {
 
         Contact contact = Contact.builder()
@@ -60,5 +60,5 @@ public class AddContactTest extends TestBase {
         app.contact().fillFormContact(contact);
         app.contact().saveContact();
            Assert.assertTrue(app.contact().isContactAdded(contact.getPhone()));
-    }
+    }*/
 }
