@@ -22,7 +22,7 @@ public class AddContactTest extends TestBase {
                 .name("Masha")
                 .lastName("Add")
                 .email("qwerty+" + i + "@bk.ru")
-                .phone("12345678" + i)
+                .phone("12345678")
                 .address("Telavi, Rustaveli, 5, 12")
                 .description("friend-"+i)
                 .build();
@@ -30,7 +30,7 @@ public class AddContactTest extends TestBase {
         app.contact().openFormContact();
         app.contact().fillFormContact(contact);
         app.contact().saveContact();
-     //   Assert.assertTrue(app.contact().isContactAdded(contact.getPhone()));
+        Assert.assertTrue(app.contact().isContactAdded(contact.getPhone()));
     }
 
 
@@ -59,6 +59,6 @@ public class AddContactTest extends TestBase {
         app.contact().openFormContact();
         app.contact().fillFormContact(contact);
         app.contact().saveContact();
-        //   Assert.assertTrue(app.contact().isContactAdded(contact.getPhone()));
+           Assert.assertTrue(app.contact().isContactAdded(contact.getPhone()));
     }
 }

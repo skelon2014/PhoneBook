@@ -20,6 +20,7 @@ public class LoginTestBase extends TestBase {
         }
     }
 
+
     @Test(groups = {"rest"})
     public void loginPositive() {
         app.userHelper().openLoginForm();

@@ -18,16 +18,16 @@ public class ContactHelper extends HelperBase {
     }
 
     public void saveContact() {
-        //  pause(1000);
-        JavascriptExecutor js = (JavascriptExecutor) wd;
+          pause(1000);
+       JavascriptExecutor js = (JavascriptExecutor) wd;
         js.executeScript("document.querySelector('button b').click();");
         //  click(By.xpath("//button/b"));
     }
 
     public void fillFormContact(Contact contact) {
-        int i = (int) ((System.currentTimeMillis()) / 100) % 60;
+        int i = (int) ((System.currentTimeMillis()) / 100) % 360;
         type(By.cssSelector("input[placeholder='Name']"), contact.getName() + i);
-        type(By.cssSelector("input[placeholder='Last Name']"), contact.getLastName() + i);
+        type(By.cssSelector("input[placeholder='Last Name']"), contact.getLastName());
         type(By.cssSelector("input[placeholder='Phone']"), contact.getPhone());
         type(By.cssSelector("input[placeholder='email']"), contact.getEmail());
         type(By.cssSelector("input[placeholder='Address']"), contact.getAddress());

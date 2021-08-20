@@ -1,20 +1,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-
 <suite name="Reg" verbose="1">
-    <groups>
-        <run>
-            <include name = "web"/>
-        </run>
-    </groups>
-
     <test name="Reg">
         <classes>
             <class name="tests.SmokeTestBase"/>
             <class name="tests.QuickTestBase"/>
-            <class name="tests.LoginTestBase">
+            <class name="tests.LoginTestBase"/>
+            <class name="tests.AddContactTest"/>
+            <class name="tests.RemoveContactTest"/>
 
-            </class>
-        </classes>
-    </test>
-</suite>
+            </classes>
+        </test>
+    </suite>
+

@@ -1,0 +1,7 @@
+18:57:31 INFO  application.ApplicationManager - Start browser CHROME
+18:57:32 INFO  tests.TestBase - ==================================
+18:57:32 INFO  tests.TestBase - Start on method - test
+18:57:32 INFO  tests.TestBase - Start test with Data - []
+18:57:32 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+18:57:32 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+18:57:32 INFO  tests.TestBase - End off method - test

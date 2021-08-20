@@ -5,6 +5,8 @@ import org.openqa.selenium.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class HelperBase {
     WebDriver wd;
@@ -13,12 +15,12 @@ public class HelperBase {
         this.wd = wd;
     }
 
-    public void click(By locator){
+    public void click(By locator) {
 
         wd.findElement(locator).click();
     }
 
-    public void type(By locator, String text){
+    public void type(By locator, String text) {
         if (text != null) {
             WebElement element = wd.findElement(locator);
             element.click();
@@ -27,14 +29,14 @@ public class HelperBase {
         }
     }
 
-    public String getText(By locator){
+    public String getText(By locator) {
         return wd.findElement(locator).getText();
     }
 
-    public void pause(int ms)   {
-        try{
+    public void pause(int ms) {
+        try {
             Thread.sleep(ms);
-        }catch (InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
@@ -48,4 +50,5 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+
 }

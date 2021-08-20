@@ -1,7 +1,7 @@
 tests/QuickTestBase.java
  tests.QuickTestBase
-tests/AddContactTest.java
- tests.AddContactTest
+tests/RegistrationTestBase.java
+ tests.RegistrationTestBase
 tests/LoginTestBase.java
  tests.LoginTestBase
 tests/RemoveContactTest.java
@@ -10,5 +10,5 @@ tests/SmokeTestBase.java
  tests.SmokeTestBase
 tests/TestBase.java
  tests.TestBase
-tests/RegistrationTestBase.java
- tests.RegistrationTestBase
+tests/AddContactTest.java
+ tests.AddContactTest
