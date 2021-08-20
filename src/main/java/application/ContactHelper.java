@@ -47,9 +47,11 @@ public class ContactHelper extends HelperBase {
 
     public void removeOneContact() {
         WebElement contact = wd.findElement(By.cssSelector(".contact-item_card__2SOIM"));
-        contact.click();
-        click(By.xpath("//button[.='Remove']"));
-        System.out.println(contact.getText());
+        if(contact != null) {
+            contact.click();
+            click(By.xpath("//button[.='Remove']"));
+            System.out.println(contact.getText());
+        }
     }
 
     public void removeAllContacts() {
