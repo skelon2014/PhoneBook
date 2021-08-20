@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTestBase" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-08-20T13:09:41" hostname="DESKTOP-V8HD5F2" time="24.674">
+  <properties/>
+  <testcase name="loginNegativeTestWithWrongPassword" classname="tests.LoginTestBase" time="2.611"/>
+  <testcase name="loginPositive" classname="tests.LoginTestBase" time="1.833"/>
+  <testcase name="loginPositiveDto" classname="tests.LoginTestBase" time="0.923"/>
+  <testcase name="loginTestBase" classname="tests.LoginTestBase" time="0.716"/>
+  <testcase name="loginTestDP_CSV[0](User{email='skelon+4@bk.ru', password='Qwerty$4'})" classname="tests.LoginTestBase" time="5.223"/>
+  <testcase name="loginTestDP_CSV[1](User{email='skelon+11@bk.ru', password='Qwerty$4'})" classname="tests.LoginTestBase" time="2.054"/>
+  <testcase name="loginTestDP_CSV[2](User{email='skelon+10@bk.ru', password='Qwerty$4'})" classname="tests.LoginTestBase" time="1.921"/>
+  <testcase name="loginTestDataProvider[0](skelon+4@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="0.811"/>
+  <testcase name="loginTestDataProvider[1](skelon+11@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="1.04"/>
+  <testcase name="loginTestDataProvider[2](skelon+10@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="1.061"/>
+  <testcase name="loginTestDataProviderClass[0](skelon+4@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="1.836"/>
+  <testcase name="loginTestDataProviderClass[1](skelon+11@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="2.199"/>
+  <testcase name="loginTestDataProviderClass[2](skelon+10@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="1.981"/>
+  <system-out><![CDATA[16:09:41 INFO  tests.TestBase - ==================================
+16:09:41 INFO  tests.TestBase - Start on method - loginNegativeTestWithWrongPassword
+16:09:41 INFO  tests.TestBase - Start test with Data - []
+16:09:41 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:41 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:41 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:41 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:41 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:41 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:41 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:41 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:41 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:41 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:42 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:42 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:43 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:43 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:43 INFO  tests.TestBase - End off method - loginNegativeTestWithWrongPassword
+16:09:43 INFO  tests.TestBase - ==================================
+16:09:43 INFO  tests.TestBase - Start on method - loginPositive
+16:09:43 INFO  tests.TestBase - Start test with Data - []
+16:09:43 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:44 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:44 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:44 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:44 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:44 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:44 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:44 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:45 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:45 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='ADD']
+16:09:45 INFO  application.MyListener - The element --> By.xpath: //a[.='ADD'] was found
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:45 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:45 INFO  tests.TestBase - End off method - loginPositive
+16:09:45 INFO  tests.TestBase - ==================================
+16:09:45 INFO  tests.TestBase - Start on method - loginPositiveDto
+16:09:45 INFO  tests.TestBase - Start test with Data - []
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:45 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:45 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:45 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:45 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:46 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:46 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:46 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:46 INFO  tests.TestBase - End off method - loginPositiveDto
+16:09:46 INFO  tests.TestBase - ==================================
+16:09:46 INFO  tests.TestBase - Start on method - loginTestBase
+16:09:46 INFO  tests.TestBase - Start test with Data - []
+16:09:46 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:46 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:46 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:46 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:46 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:47 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:47 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:47 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:47 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:47 INFO  tests.TestBase - End off method - loginTestBase
+16:09:47 INFO  tests.TestBase - ==================================
+16:09:47 INFO  tests.TestBase - Start on method - loginTestDP_CSV
+16:09:47 INFO  tests.TestBase - Start test with Data - [User{email='skelon+4@bk.ru', password='Qwerty$4'}]
+16:09:47 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:47 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:48 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:51 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:51 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:51 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:51 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:51 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:51 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:51 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:52 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:52 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:52 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:52 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:52 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:52 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:52 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:52 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:52 INFO  tests.TestBase - End off method - loginTestDP_CSV
+16:09:52 INFO  tests.TestBase - ==================================
+16:09:52 INFO  tests.TestBase - Start on method - loginTestDP_CSV
+16:09:52 INFO  tests.TestBase - Start test with Data - [User{email='skelon+11@bk.ru', password='Qwerty$4'}]
+16:09:52 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:52 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:53 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:53 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:53 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:53 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:54 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:54 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:54 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:54 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:54 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:54 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:54 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:54 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:54 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:54 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:54 INFO  tests.TestBase - End off method - loginTestDP_CSV
+16:09:54 INFO  tests.TestBase - ==================================
+16:09:54 INFO  tests.TestBase - Start on method - loginTestDP_CSV
+16:09:54 INFO  tests.TestBase - Start test with Data - [User{email='skelon+10@bk.ru', password='Qwerty$4'}]
+16:09:54 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:54 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:55 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:55 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:55 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:56 INFO  tests.TestBase - End off method - loginTestDP_CSV
+16:09:56 INFO  tests.TestBase - ==================================
+16:09:56 INFO  tests.TestBase - Start on method - loginTestDataProvider
+16:09:56 INFO  tests.TestBase - Start test with Data - [skelon+4@bk.ru, Qwerty$4]
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:56 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:56 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:57 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:57 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:57 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:57 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:57 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:57 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:57 INFO  tests.TestBase - End off method - loginTestDataProvider
+16:09:57 INFO  tests.TestBase - ==================================
+16:09:57 INFO  tests.TestBase - Start on method - loginTestDataProvider
+16:09:57 INFO  tests.TestBase - Start test with Data - [skelon+11@bk.ru, Qwerty$4]
+16:09:57 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:57 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:57 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:57 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:57 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:57 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:57 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:57 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:58 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:58 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:58 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:58 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:58 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:58 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:58 INFO  tests.TestBase - End off method - loginTestDataProvider
+16:09:58 INFO  tests.TestBase - ==================================
+16:09:58 INFO  tests.TestBase - Start on method - loginTestDataProvider
+16:09:58 INFO  tests.TestBase - Start test with Data - [skelon+10@bk.ru, Qwerty$4]
+16:09:58 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:58 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:58 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:58 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:58 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:58 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:58 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:09:59 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:09:59 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:09:59 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:09:59 INFO  tests.TestBase - End off method - loginTestDataProvider
+16:09:59 INFO  tests.TestBase - ==================================
+16:09:59 INFO  tests.TestBase - Start on method - loginTestDataProviderClass
+16:09:59 INFO  tests.TestBase - Start test with Data - [skelon+4@bk.ru, Qwerty$4]
+16:09:59 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:59 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:59 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:09:59 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:09:59 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:10:00 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:10:00 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:10:00 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:10:00 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:10:00 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:10:00 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:10:01 INFO  tests.TestBase - End off method - loginTestDataProviderClass
+16:10:01 INFO  tests.TestBase - ==================================
+16:10:01 INFO  tests.TestBase - Start on method - loginTestDataProviderClass
+16:10:01 INFO  tests.TestBase - Start test with Data - [skelon+11@bk.ru, Qwerty$4]
+16:10:01 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:10:01 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:10:01 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:10:01 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:10:01 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:10:01 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:10:01 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:10:01 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:10:02 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:10:02 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:10:02 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:10:02 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:10:02 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:10:02 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:10:03 INFO  tests.TestBase - End off method - loginTestDataProviderClass
+16:10:03 INFO  tests.TestBase - ==================================
+16:10:03 INFO  tests.TestBase - Start on method - loginTestDataProviderClass
+16:10:03 INFO  tests.TestBase - Start test with Data - [skelon+10@bk.ru, Qwerty$4]
+16:10:03 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:10:03 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:10:03 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:10:03 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:10:03 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:10:04 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:10:04 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+16:10:04 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+16:10:04 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+16:10:04 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+16:10:04 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+16:10:04 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+16:10:04 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
+16:10:04 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
+16:10:05 INFO  tests.TestBase - End off method - loginTestDataProviderClass
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

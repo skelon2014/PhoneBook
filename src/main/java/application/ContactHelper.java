@@ -61,7 +61,7 @@ public class ContactHelper extends HelperBase {
           pause(2000);
       }*/
 
-        while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() > 1) {
+        while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() > 0) {
             removeOneContact();
             pause(500);
             System.out.println();

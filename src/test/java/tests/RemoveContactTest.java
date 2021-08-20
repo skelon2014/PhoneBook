@@ -15,7 +15,7 @@ public class RemoveContactTest extends TestBase{
         }
     }
 @Test
-    public void removeOneContact(){
+    public void remove1OneContact(){
 
      //   app.userHelper().click(By.cssSelector("a[href='/contacts']"));
         app.contact().removeOneContact();

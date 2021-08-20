@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RemoveContactTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-20T13:11:18" hostname="DESKTOP-V8HD5F2" time="11.298">
+  <properties/>
+  <testcase name="removeAllContacts" classname="tests.RemoveContactTest" time="8.064"/>
+  <testcase name="removeOneContact" classname="tests.RemoveContactTest" time="0.159"/>
+  <system-out><![CDATA[16:11:15 INFO  tests.TestBase - ==================================
+16:11:15 INFO  tests.TestBase - Start on method - removeAllContacts
+16:11:15 INFO  tests.TestBase - Start test with Data - []
+16:11:15 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:11:18 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:11:18 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:18 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:18 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:18 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:18 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:18 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Masha-345
+12345678247
+
+16:11:18 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:18 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:18 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:18 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:19 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:19 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Masha-280
+12345678254
+
+16:11:19 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:19 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:19 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:19 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:19 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:19 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Masha-223
+12345678260
+
+16:11:20 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:20 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:20 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:20 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:20 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:20 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Masha-165
+1234511678
+
+16:11:21 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:21 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:21 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:21 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:21 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:21 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Sasha-107
+9874115632
+
+16:11:21 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:21 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:21 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:21 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:21 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:21 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Mosha-50
+1411567412
+
+16:11:22 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:22 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:22 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:22 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:22 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:22 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Gosha-350
+3245631125
+
+16:11:23 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:23 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:23 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:23 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:23 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:23 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Resae-292
+1211452145
+
+16:11:23 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:23 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:23 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:24 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:24 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:24 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Trew-235
+9811569856
+
+16:11:24 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:24 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:24 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:24 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:24 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:24 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+John-176
+6587114521
+
+16:11:25 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:25 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:25 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:25 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:25 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:25 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Jane-119
+1211589654
+
+16:11:26 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:26 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:26 INFO  tests.TestBase - End off method - removeAllContacts
+16:11:26 INFO  tests.TestBase - ==================================
+16:11:26 INFO  tests.TestBase - Start on method - removeOneContact
+16:11:26 INFO  tests.TestBase - Start test with Data - []
+16:11:26 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+16:11:29 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+16:11:29 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+16:11:29 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+16:11:29 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+16:11:29 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+Mila-60
+1241156987
+16:11:29 INFO  tests.TestBase - End off method - removeOneContact
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
