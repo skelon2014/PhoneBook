@@ -3,8 +3,8 @@
 <suite name="Reg" verbose="1">
     <test name="Reg">
         <classes>
-            <class name="tests.SmokeTestBase"/>
-            <class name="tests.QuickTestBase"/>
+
+
             <class name="tests.LoginTestBase"/>
             <class name="tests.AddContactTest"/>
             <class name="tests.RemoveContactTest"/>
