@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTestBase" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-08-21T11:15:41" hostname="DESKTOP-V8HD5F2" time="22.619">
-  <properties/>
-  <testcase name="loginNegativeTestWithWrongPassword" classname="tests.LoginTestBase" time="1.926"/>
-  <testcase name="loginPositive" classname="tests.LoginTestBase" time="0.915"/>
-  <testcase name="loginPositiveDto" classname="tests.LoginTestBase" time="0.806"/>
-  <testcase name="loginTestBase" classname="tests.LoginTestBase" time="0.702"/>
-  <testcase name="loginTestDP_CSV[0](User{email='skelon+4@bk.ru', password='Qwerty$4'})" classname="tests.LoginTestBase" time="5.986"/>
-  <testcase name="loginTestDP_CSV[1](User{email='skelon+11@bk.ru', password='Qwerty$4'})" classname="tests.LoginTestBase" time="1.906"/>
-  <testcase name="loginTestDP_CSV[2](User{email='skelon+10@bk.ru', password='Qwerty$4'})" classname="tests.LoginTestBase" time="1.843"/>
-  <testcase name="loginTestDataProvider[0](skelon+4@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="0.804"/>
-  <testcase name="loginTestDataProvider[1](skelon+11@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="0.771"/>
-  <testcase name="loginTestDataProvider[2](skelon+10@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="0.835"/>
-  <testcase name="loginTestDataProviderClass[0](skelon+4@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="1.889"/>
-  <testcase name="loginTestDataProviderClass[1](skelon+11@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="1.78"/>
-  <testcase name="loginTestDataProviderClass[2](skelon+10@bk.ru, Qwerty$4)" classname="tests.LoginTestBase" time="1.904"/>
-  <system-out><![CDATA[14:15:41 INFO  tests.TestBase - ==================================
+14:15:40 INFO  application.ApplicationManager - Start browser CHROME
+14:15:41 INFO  tests.TestBase - ==================================
 14:15:41 INFO  tests.TestBase - Start on method - loginNegativeTestWithWrongPassword
 14:15:41 INFO  tests.TestBase - Start test with Data - []
 14:15:41 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
@@ -264,6 +249,3 @@
 14:16:02 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Sign Out']
 14:16:03 INFO  application.MyListener - The element --> By.xpath: //button[.='Sign Out'] was found
 14:16:04 INFO  tests.TestBase - End off method - loginTestDataProviderClass
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
