@@ -1,0 +1,36 @@
+14:40:09 INFO  application.ApplicationManager - Start browser CHROME
+14:40:10 INFO  tests.TestBase - ==================================
+14:40:10 INFO  tests.TestBase - Start on method - removeAllContacts
+14:40:10 INFO  tests.TestBase - Start test with Data - []
+14:40:10 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+14:40:10 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+14:40:10 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+14:40:10 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+14:40:10 INFO  application.MyListener - Start find element by --> By.xpath: //a[.='LOGIN']
+14:40:10 INFO  application.MyListener - The element --> By.xpath: //a[.='LOGIN'] was found
+14:40:11 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Email']
+14:40:11 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Email'] was found
+14:40:11 INFO  application.MyListener - Start find element by --> By.xpath: //input[@placeholder='Password']
+14:40:11 INFO  application.MyListener - The element --> By.xpath: //input[@placeholder='Password'] was found
+14:40:11 INFO  application.MyListener - Start find element by --> By.xpath: //button[.=' Login']
+14:40:11 INFO  application.MyListener - The element --> By.xpath: //button[.=' Login'] was found
+14:40:12 INFO  application.MyListener - Start find element by --> By.cssSelector: .contact-item_card__2SOIM
+14:40:12 INFO  application.MyListener - The element --> By.cssSelector: .contact-item_card__2SOIM was found
+14:40:12 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+14:40:12 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+14:40:15 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+14:40:15 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+14:40:17 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+14:40:17 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+14:40:19 INFO  application.MyListener - Start find element by --> By.xpath: //button[.='Remove']
+14:40:19 INFO  application.MyListener - The element --> By.xpath: //button[.='Remove'] was found
+14:40:22 INFO  application.MyListener - Screen -> src/test/screenshots/screen-21.png
+14:40:22 INFO  application.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V8HD5F2', ip: '192.168.1.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 053fba85a426e17dab74169f272b5cdd
+14:40:22 INFO  tests.TestBase - End off method - removeAllContacts

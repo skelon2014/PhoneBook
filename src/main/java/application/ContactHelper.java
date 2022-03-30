@@ -50,24 +50,24 @@ public class ContactHelper extends HelperBase {
         if(contact != null) {
             contact.click();
             click(By.xpath("//button[.='Remove']"));
-            System.out.println(contact.getText());
+            System.out.println("Remove contact: " + contact.getText());
         }
     }
 
     public void removeAllContacts() {
-       // List<WebElement> contacts = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
-    /*  for(WebElement el:contacts) {
+        List<WebElement> contacts = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
+      for(WebElement el:contacts) {
           el.click();
           click(By.xpath("//button[.='Remove']"));
           System.out.println(el.getText());
           pause(2000);
-      }*/
+      }
 
-        while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() > 0) {
+     /*   while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size() > 0) {
             removeOneContact();
             pause(500);
             System.out.println();
-        }
+        }*/
     }
 
     public boolean isContactPresent() {

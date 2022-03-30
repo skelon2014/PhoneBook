@@ -36,7 +36,7 @@ public class AddContactTest extends TestBase {
 
    @Test(dataProvider = "dataContactCSV",dataProviderClass = MyDataProvider.class)
     public void addContactTestCSV(Contact contact) {
-        int i = (int)((System.currentTimeMillis())/1000)%360;
+        int i = (int)((System.currentTimeMillis())/1000)%3600;
 
         app.contact().openFormContact();
         app.contact().fillFormContact(contact);
